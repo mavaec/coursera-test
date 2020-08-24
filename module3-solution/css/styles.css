@@ -8,10 +8,19 @@ h2 {
 	font-weight: bold;
 }
 
+
+/*
 #header-nav{
 	background-color: LightGray;
-	border-color: black;
-	border: 1px;
+
+}
+*/
+
+
+.navbar{
+	background-color: LightGray;
+	border: 1px solid #61122f;
+	border-radius: 0;
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -49,4 +58,29 @@ p.description{
   	padding-bottom: 20px;
 
 
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+#nav-list {
+	background: white;
+	
+	list-style-type: none;
+	padding-left: 0;
+	padding-right: 0;
+
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 0px;
+
+}
+
+#nav-list li {
+	text-align: center;
+	border: 1px solid #61122f;
+	font-size: 18px;
+	color: black;
+	
 }
