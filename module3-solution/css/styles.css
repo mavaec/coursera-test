@@ -1,10 +1,8 @@
 body{
-	//background-color: LightGreen;
 	font-family: 'Oxygen', sans-serif;
 }
 
 h2 {
-	//text-align: center;
 	font-weight: bold;
 }
 
@@ -26,7 +24,6 @@ h2 {
 .navbar-brand h1 { /* Restaurant name */
   color: black;
   font-size: 1.5em;
-  //text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
@@ -65,6 +62,11 @@ p.description{
 
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: #eee;
+
+}
+
 
 #nav-list {
 	background: white;
@@ -81,7 +83,6 @@ p.description{
 }
 
 #nav-list li {
-	//text-align: center;
 	border: 1px solid #61122f;
 
 	
